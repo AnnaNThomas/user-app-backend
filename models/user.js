@@ -1,12 +1,17 @@
 const mongoose = require("mongoose")
 const Schema = mongoose.Schema(
     {
-        "ctitle":{type:String,require:true},
-        "cdesc":{type:String,require:true},
-        "cdate":{type:String,require:true},
-        "duration":{type:String,require:true},
-        "venue":{type:String,require:true},
-        "trainername":{type:String,require:true}
+        "username":{type:String,require:true},
+        "password":{type:String,require:true},
+        "name":{type:String,require:true},
+        "dob":{type:String,require:true},
+        "bloodgroup":{type:String,require:true},
+        "mobileno":{type:String,require:true},
+        "address":{type:String,require:true},
+        "pincode":{type:String,require:true},
+        "district":{type:String,require:true},
+        "place":{type:String,require:true},
+        "emailid":{type:String,require:true}
     }
 )
 
